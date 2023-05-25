@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: terraform-aws-route53
   description: AWS Route53 zone terraform module
+  annotations:
+    github.com/project-slug: developertown/terraform-aws-route53
   tags:
     - terraform
     - aws
