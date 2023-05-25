@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform-aws-route53
+  description: AWS Route53 zone terraform module
+  tags:
+    - terraform
+    - aws
+    - dns
+spec:
+  type: service
+  lifecycle: production
+  owner: dt-devops
