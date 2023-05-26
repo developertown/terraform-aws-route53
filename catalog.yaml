@@ -10,6 +10,6 @@ metadata:
     - aws
     - dns
 spec:
-  type: service
+  type: terraform-module
   lifecycle: production
   owner: dt-devops
